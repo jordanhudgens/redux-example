@@ -4,10 +4,10 @@ import { Header, Container, Menu } from "semantic-ui-react";
 
 import TabBarContainer from "../features/tabs/tab-bar-container";
 
-const UnitInfo = () => <div>Unit Info content</div>;
-const Pilots = () => <div>Pilots content</div>;
-const Mechs = () => <div>Mechs content</div>;
-const UnitOrganization = () => <div>Unit Organization content</div>;
+import Mechs from "../features/mechs/mechs";
+import Pilots from "../features/pilots/pilots";
+import UnitInfo from "../features/unit-info/unit-info";
+import UnitOrganization from "../features/unit-organization/unit-organization";
 
 export default class App extends Component {
   componentWillMount() {
