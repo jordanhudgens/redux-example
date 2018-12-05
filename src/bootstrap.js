@@ -7,7 +7,7 @@ import App from "./components/app";
 import configureStore from "./store/configureStore";
 const store = configureStore();
 
-import "bootstrap/dist/css/bootstrap.css";
+import "semantic-ui-css/semantic.css";
 import "./style/main.scss";
 
 function main() {
